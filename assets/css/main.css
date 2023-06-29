@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.wrraper {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar {
+    margin: 12px auto;
+}
+
+.category-list {
+    margin: 12px auto;
+}
+
+.beachlist-list {
+    margin: 12px auto;
+}

@@ -1,0 +1,50 @@
+.search-bar {
+    width: 100%;
+}
+
+.search-bar form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+}
+
+.search-bar form input {
+    width: 336px;
+    height: 36px;
+    border-radius: 5px;
+    padding: 4px 4px 4px 12px;
+    position: relative;
+    border: 1px solid #cdcdcd;
+}
+
+.search-bar form input:focus,
+.search-bar form input:valid {
+    outline: none;
+    background-color: #f3f3f3;
+    border: none;
+}
+
+.search-bar form button {
+    width: 36px;
+    height: 28px;
+    border-radius: 5px;
+    position: absolute;
+    border: none;
+    background-color: #000;
+    right: 5px;
+    top: 4px;
+    background-image: url(../../img/ic-search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.search-bar form button:hover {
+    box-shadow: 1px 4px 8px #cdcdcd;
+}
+
+.search-bar form button:active {
+    background-color: #414141;
+}
