@@ -20,6 +20,8 @@
 .category-list ul li {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     flex-shrink: 0;
     width: 164px;
     height: 56px;
@@ -27,4 +29,15 @@
     border-radius: 6px;
     border: 1px solid #cdcdcd;
     gap: 8px;
+    font-weight: 700;
+}
+
+.category-list ul li .category-img-box {
+    width: 32px;
+    height: 32px;
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
