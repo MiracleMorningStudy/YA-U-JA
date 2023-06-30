@@ -56,7 +56,7 @@ header .menu-list ul li a {
     height: 100%;
 }
 
-header .menu-list ul li::nth-child(2) a {
+header .menu-list ul li:nth-child(2) a {
     background-image: url(../../img/icon-1.svg);
 }
 
