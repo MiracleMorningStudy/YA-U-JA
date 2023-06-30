@@ -18,27 +18,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
     </head>
     <body>
-        <div class="wrraper">
-            <header>
-                <div class="header-bar">
-                    <h1>
-                        <a href="">YA-U-JA!</a>
-                    </h1>
-                    <div class="menu-list">
-                        <ul>
-                            <li>
-                                <a href="/Map"></a>
-                            </li>
-                            <li>
-                                <a href="/Vote"></a>
-                            </li>
-                            <li>
-                                <a href="/Memo"></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
+        <div class="wrapper">
+            <header class="header"></header>
             <main>
                 <div class="search-bar">
                     <form action="">
@@ -198,28 +179,10 @@
                 </div>
             </main>
 
-            <nav class="nav-bar">
-                <ul>
-                    <li>
-                        <a href="">
-                            <img src="../assets/img/icon.svg" alt="맵" />
-                        </a>
-                        Home
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../assets/img/icon-1.svg" alt="투표" />
-                        </a>
-                        Vote
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="../assets/img/icon-2.svg" alt="메모" />
-                        </a>
-                        Memo
-                    </li>
-                </ul>
-            </nav>
+            <nav class="nav-bar"></nav>
         </div>
+
+        <script type="module" src="assets/js/common/header.js"></script>
+        <script type="module" src="assets/js/common/nav.js"></script>
     </body>
 </html>
