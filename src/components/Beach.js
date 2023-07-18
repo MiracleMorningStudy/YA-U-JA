@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import BeachIcon1 from "../assets/img/beach-icon.svg";
+import BeachIcon2 from "../assets/img/beach-icon-1.svg";
+import BeachIcon3 from "../assets/img/beach-icon-2.svg";
 
 const BeachListWrapper = styled.div`
     width: 100%;
@@ -62,7 +65,7 @@ function BeachList() {
             <BeachListContainer>
                 <BeachListItem>
                     <BeachImgBox>
-                        <BeachImg src="../assets/img/beach-icon.svg" alt="" />
+                        <BeachImg src={BeachIcon1} alt="" />
                     </BeachImgBox>
                     <BeachTitle>
                         <h2>Beach Name</h2>
@@ -78,7 +81,7 @@ function BeachList() {
                 </BeachListItem>
                 <BeachListItem>
                     <BeachImgBox>
-                        <BeachImg src="../assets/img/beach-icon-1.svg" alt="" />
+                        <BeachImg src={BeachIcon2} alt="" />
                     </BeachImgBox>
                     <BeachTitle>
                         <h2>Beach Name</h2>
@@ -94,7 +97,7 @@ function BeachList() {
                 </BeachListItem>
                 <BeachListItem>
                     <BeachImgBox>
-                        <BeachImg src="../assets/img/beach-icon-2.svg" alt="" />
+                        <BeachImg src={BeachIcon3} alt="" />
                     </BeachImgBox>
                     <BeachTitle>
                         <h2>Beach Name</h2>

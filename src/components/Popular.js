@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import oceanImage1 from "../assets/img/ocean.png";
 
 const PopularListWrapper = styled.div`
     width: 100%;
@@ -54,11 +55,8 @@ const PopularTextBox = styled.div`
 const PopularText = styled.p`
     font-size: 12px;
     line-height: 16px;
-
-    &:nth-child(2) {
-        font-weight: 500;
-        line-height: 24px;
-    }
+    font-weight: ${({ isBold }) => (isBold ? "500" : "normal")};
+    line-height: ${({ isBold }) => (isBold ? "24px" : "16px")};
 `;
 
 function PopularList() {
@@ -67,56 +65,47 @@ function PopularList() {
             <PopularListContainer>
                 <PopularListItem>
                     <PopularImgBox>
-                        <PopularImg src="" alt="" />
+                        <PopularImg src={oceanImage1} alt="" />
                     </PopularImgBox>
                     <PopularTextBox>
                         <PopularText>Beach Name</PopularText>
-                        <PopularText>Rating: 4.5</PopularText>
+                        <PopularText isBold>Rating: 4.5</PopularText>
                     </PopularTextBox>
                 </PopularListItem>
                 <PopularListItem>
                     <PopularImgBox>
-                        <PopularImg src="" alt="" />
+                        <PopularImg src={oceanImage1} alt="" />
                     </PopularImgBox>
                     <PopularTextBox>
                         <PopularText>Beach Name</PopularText>
-                        <PopularText>Rating: 4.5</PopularText>
+                        <PopularText isBold>Rating: 4.5</PopularText>
                     </PopularTextBox>
                 </PopularListItem>
                 <PopularListItem>
                     <PopularImgBox>
-                        <PopularImg src="" alt="" />
+                        <PopularImg src={oceanImage1} alt="" />
                     </PopularImgBox>
                     <PopularTextBox>
                         <PopularText>Beach Name</PopularText>
-                        <PopularText>Rating: 4.5</PopularText>
+                        <PopularText isBold>Rating: 4.5</PopularText>
                     </PopularTextBox>
                 </PopularListItem>
                 <PopularListItem>
                     <PopularImgBox>
-                        <PopularImg src="" alt="" />
+                        <PopularImg src={oceanImage1} alt="" />
                     </PopularImgBox>
                     <PopularTextBox>
                         <PopularText>Beach Name</PopularText>
-                        <PopularText>Rating: 4.5</PopularText>
+                        <PopularText isBold>Rating: 4.5</PopularText>
                     </PopularTextBox>
                 </PopularListItem>
                 <PopularListItem>
                     <PopularImgBox>
-                        <PopularImg src="" alt="" />
+                        <PopularImg src={oceanImage1} alt="" />
                     </PopularImgBox>
                     <PopularTextBox>
                         <PopularText>Beach Name</PopularText>
-                        <PopularText>Rating: 4.5</PopularText>
-                    </PopularTextBox>
-                </PopularListItem>
-                <PopularListItem>
-                    <PopularImgBox>
-                        <PopularImg src="" alt="" />
-                    </PopularImgBox>
-                    <PopularTextBox>
-                        <PopularText>Beach Name</PopularText>
-                        <PopularText>Rating: 4.5</PopularText>
+                        <PopularText isBold>Rating: 4.5</PopularText>
                     </PopularTextBox>
                 </PopularListItem>
             </PopularListContainer>

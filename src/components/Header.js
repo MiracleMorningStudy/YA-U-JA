@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import logoImage1 from "../assets/img/icon.svg";
+import logoImage2 from "../assets/img/icon-1.svg";
+import logoImage3 from "../assets/img/icon-2.svg";
 
 const HeaderWrapper = styled.header`
     width: 100%;
@@ -52,17 +55,23 @@ const MenuItemLink = styled.a`
     background-size: cover;
     background-position: calc(50% - 1px) calc(50% - 1px);
 
-    &:nth-child(1) {
-        background-image: url(../assets/img/icon.svg);
-    }
+    ${(props) =>
+        props.index === 1 &&
+        `
+        background-image: url(${props.logoImage1});
+    `}
 
-    &:nth-child(2) {
-        background-image: url(../assets/img/icon-1.svg);
-    }
+    ${(props) =>
+        props.index === 2 &&
+        `
+        background-image: url(${props.logoImage2});
+    `}
 
-    &:nth-child(3) {
-        background-image: url(../assets/img/icon-2.svg);
-    }
+    ${(props) =>
+        props.index === 3 &&
+        `
+        background-image: url(${props.logoImage3});
+    `}
 `;
 
 function Header(props) {
@@ -74,13 +83,13 @@ function Header(props) {
                 </Heading>
                 <MenuList>
                     <MenuItem>
-                        <MenuItemLink href="/Map" />
+                        <MenuItemLink index={1} logoImage1={logoImage1} href="/Map" />
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink href="/Vote" />
+                        <MenuItemLink index={2} logoImage2={logoImage2} href="/Map" />
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink href="/Memo" />
+                        <MenuItemLink index={3} logoImage3={logoImage3} href="/Map" />
                     </MenuItem>
                 </MenuList>
             </HeaderBar>

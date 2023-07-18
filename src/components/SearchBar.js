@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import seachIcon from "../assets/img/ic-search.svg";
 
 const SearchBarWrapper = styled.div`
     width: 100%;
@@ -48,7 +49,7 @@ const SearchButton = styled.button`
     background-color: #000;
     right: 5px;
     top: 4px;
-    background-image: url(../../img/ic-search.svg);
+    background-image: url(${seachIcon});
     background-position: center;
     background-repeat: no-repeat;
 
