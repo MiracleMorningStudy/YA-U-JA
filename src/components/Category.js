@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import categoryIcon1 from "../assets/img/category-icon.svg";
+import categoryIcon2 from "../assets/img/category-icon-1.svg";
 
 const CategoryListWrapper = styled.div`
     width: 100%;
@@ -54,31 +56,31 @@ function CategoryList() {
             <CategoryListContainer>
                 <CategoryListItem>
                     <CategoryImgBox>
-                        <img src="../assets/img/beach-icon-1.svg" alt="" />
+                        <img src={categoryIcon1} alt="" />
                     </CategoryImgBox>
                     Top Rated
                 </CategoryListItem>
                 <CategoryListItem>
                     <CategoryImgBox>
-                        <img src="../assets/img/beach-icon-1.svg" alt="" />
+                        <img src={categoryIcon2} alt="" />
                     </CategoryImgBox>
                     Top Rated
                 </CategoryListItem>
                 <CategoryListItem>
                     <CategoryImgBox>
-                        <img src="../assets/img/beach-icon-1.svg" alt="" />
+                        <img src={categoryIcon1} alt="" />
                     </CategoryImgBox>
                     Top Rated
                 </CategoryListItem>
                 <CategoryListItem>
                     <CategoryImgBox>
-                        <img src="../assets/img/beach-icon-1.svg" alt="" />
+                        <img src={categoryIcon2} alt="" />
                     </CategoryImgBox>
                     Top Rated
                 </CategoryListItem>
                 <CategoryListItem>
                     <CategoryImgBox>
-                        <img src="../assets/img/beach-icon-1.svg" alt="" />
+                        <img src={categoryIcon1} alt="" />
                     </CategoryImgBox>
                     Top Rated
                 </CategoryListItem>
