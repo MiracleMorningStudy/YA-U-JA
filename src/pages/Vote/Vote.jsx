@@ -1,7 +1,7 @@
 import React from "react";
 
 const Vote = () => {
-    return <div></div>;
+    return <div>Vote</div>;
 };
 
 export default Vote;

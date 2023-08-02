@@ -1,7 +1,7 @@
 import React from "react";
 
 const Memo = () => {
-    return <div></div>;
+    return <div>Memo</div>;
 };
 
 export default Memo;
