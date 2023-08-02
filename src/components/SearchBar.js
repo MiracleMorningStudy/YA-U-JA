@@ -67,7 +67,11 @@ function SearchBar() {
         <SearchBarWrapper>
             <SearchForm>
                 <SearchLabel htmlFor="searchInput"></SearchLabel>
-                <SearchInput type="text" id="searchInput" placeholder="어디로 놀러갈까?" />
+                <SearchInput
+                    type="text"
+                    id="searchInput"
+                    placeholder="어디로 놀러갈까?"
+                />
                 <SearchButton></SearchButton>
             </SearchForm>
         </SearchBarWrapper>

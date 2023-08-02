@@ -83,13 +83,25 @@ function Header(props) {
                 </Heading>
                 <MenuList>
                     <MenuItem>
-                        <MenuItemLink index={1} logoImage1={logoImage1} href="/Map" />
+                        <MenuItemLink
+                            index={1}
+                            logoImage1={logoImage1}
+                            href="/Map"
+                        />
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink index={2} logoImage2={logoImage2} href="/Map" />
+                        <MenuItemLink
+                            index={2}
+                            logoImage2={logoImage2}
+                            href="/Map"
+                        />
                     </MenuItem>
                     <MenuItem>
-                        <MenuItemLink index={3} logoImage3={logoImage3} href="/Map" />
+                        <MenuItemLink
+                            index={3}
+                            logoImage3={logoImage3}
+                            href="/Map"
+                        />
                     </MenuItem>
                 </MenuList>
             </HeaderBar>
