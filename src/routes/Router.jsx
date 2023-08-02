@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useNavigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import Layout from "../components/common/Layout/Layout";
 import Home from "../pages/Home/Home";
 import Vote from "../pages/Vote/Vote";
@@ -6,8 +6,6 @@ import Memo from "../pages/Memo/Memo";
 import Error from "../pages/Error/Error";
 
 const Router = () => {
-    const Navigate = useNavigate();git 
-
     return (
         <BrowserRouter>
             <Routes>
