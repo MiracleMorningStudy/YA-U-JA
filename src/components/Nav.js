@@ -65,7 +65,7 @@ function NavBar() {
         <NavBarWrapper className="nav-bar">
             <NavList>
                 <NavItem>
-                    <NavLink index={1} logoImage1={logoImage1} href="/Map" />
+                    <NavLink index={1} logoImage1={logoImage1} href="/home" />
                     Home
                 </NavItem>
                 <NavItem>

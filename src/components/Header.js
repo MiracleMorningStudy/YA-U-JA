@@ -86,21 +86,21 @@ function Header(props) {
                         <MenuItemLink
                             index={1}
                             logoImage1={logoImage1}
-                            href="/Map"
+                            href="/home"
                         />
                     </MenuItem>
                     <MenuItem>
                         <MenuItemLink
                             index={2}
                             logoImage2={logoImage2}
-                            href="/Map"
+                            href="/vote"
                         />
                     </MenuItem>
                     <MenuItem>
                         <MenuItemLink
                             index={3}
                             logoImage3={logoImage3}
-                            href="/Map"
+                            href="/memo"
                         />
                     </MenuItem>
                 </MenuList>
